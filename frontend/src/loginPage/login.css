@@ -34,6 +34,13 @@ a {
     margin-top: 5px;
 }
 
+.data {
+    border: 2px solid black;
+    color: deeppink;
+    font-size: 20px;
+    padding: 10px;
+}
+
 input {
 
     width: 350px;

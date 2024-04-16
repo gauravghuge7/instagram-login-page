@@ -141,12 +141,15 @@ try {
         }
         
         
-        res.cookie("token", token, cookieOptions)
+        
+       
         res.status(200)
+        res.cookie("token", token, cookieOptions)
         res.json(
     
-            new ApiResponse(200, "user sign in successfully", user)
-    
+            new ApiResponse(200, "user sign in successfully", user),
+            res.status(200),
+            res.cookie("token", token, cookieOptions)
     
             // {
             //     name: "username"
