@@ -1,0 +1,56 @@
+
+
+body {
+    background-color: rgb(224, 232, 239);
+    font-family: "Poppins", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.signup {
+
+    background-color: white;
+    box-shadow: rgb(13, 256, 256);
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 1rem;
+    height: 500px;
+    width: 450px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.login {
+    border: 1px solid black;
+    border: 3px;
+    margin-top: 5px;
+}
+
+input {
+
+    width: 350px;
+    height: 30px;
+
+    margin-bottom: 10px;
+    margin-top: 3px;    
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#bio {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#submit {
+    background-color: #2974dd;
+    border: 2px solid #2974dd;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Sign Up</title>
+
+    <!-- linking the css -->
+    <link rel="stylesheet" href="./src/index.css">
+</head>
+<body>
+
+    <main class="signup">
+        <h1>Instagram SignUp</h1>
+        <form autocomplete="off" id="form1" action="/signupInsta" method="post" enctype="multipart/form-data">
+
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Enter your name ">
+            <br>
+
+            <label for="username">Username</label>
+            <br>
+            <input type="text" id="username" name="username" placeholder="@garryghuge7">
+            <br>
+
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" >
+            <br>
+
+            <label for="password">Password</label>
+            <br>
+            <input type="text" id="password" name="password" placeholder="**********">
+            <br>
+
+            <label for="bio">Bio</label>
+            <br>
+            <textarea name="bio" id="bio" cols="46" rows="4">Add bio here</textarea>
+            <br>
+
+            <input type="submit" id="submit" value="Sign Up">
+            <!-- <button type="submit" id="submit" >Sign Up</button> -->
+
+        </form>
+
+        <p>already account existed &nbsp; &nbsp;<a href="./src/loginPage/login.html">Log in</a></p>
+
+    </main>
+
+
+    <section class="userInfo">
+
+
+        <h3 id="dispmessage"></h3>
+        <h3 id="dispName"> </h3>
+        <p id="dispUsername"></p>
+        <p id="dispEmail"></p>
+        <p id="dispBio"></p>
+    </section>
+    
+   
+   <script src="./entry/script.js"></script>
+    
+</body>
+</html>
